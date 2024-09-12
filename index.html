@@ -7,35 +7,29 @@
     <style>
             #pai{
             display: flex;
-            align-items: center;
             height: 500px;
             border: dashed 3px red;
            
         }
 
-        .esquerda{
-            border: solid px black;
-            height: 300px;
-            background-color: bisque;
+        #esquerda{
             display: flex;
-            border: solid 3px black
-            
-        }
-
-        .direita{
-
-        }
+            justify-content: center ;
+            height: 450px;
+            width: 450px;
+            border: solid 3px blue 
         
-
-        .item.esquerdo{
-            height: 20px;
-           border: solid 3px black;
         }
 
-        .item.direito{
-
-
+        .item{
+            display: flex;
+            align-items: center;
+            border: solid 3px blue;
+            height: 50px;
+            width: 40px;
         }
+
+        
         
 
         
@@ -48,18 +42,12 @@
 
     
            <div id="pai">
-
              <div id="esquerda">
-                <div class="item esquerdo"></div>
-                <div class="item  esquerdo"></div>
-                <div class="item  esquerdo"></div>
+                <div class="item um">item 1</div>
+                <div class="item dois"></div>
+                <div class="item tres "></div>
              </div>
-              
-              <div id="direita">
-                <div class="item direito"></div>
-                <div class="item direito"></div>
-                <div class="item direito"></div>
-              </div>
+         
             </div>
 
         </div>
